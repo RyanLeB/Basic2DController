@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     Vector2 movement;
 
-
+    public Animator anim;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
-
+        anim.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        anim.SetFloat("Vertical", Input.GetAxis("Vertical"));
 
     }
 
