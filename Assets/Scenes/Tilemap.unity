@@ -175,6 +175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
+    - target: {fileID: 1404666439073820872, guid: 6010c60d033b04d479fbc9a8335c6a2b, type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7107672458443583558, guid: 6010c60d033b04d479fbc9a8335c6a2b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1043284778, guid: 9c7ac2482f0c58749abd91a377402490, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
